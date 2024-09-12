@@ -1,0 +1,143 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Color de acento para los titulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #730FC3;
+}
+
+header img {
+    width: 25%;
+    max-width: 128px;
+}
+
+header nav div div ul li a#active {
+    color: #730FC3;
+}
+
+.navbar-nav {
+    align-items: center;
+    gap: 12px;
+}
+
+.navbar-nav a {
+    width: max-content;
+}
+
+/* Estilos de los footers */
+footer {
+    background-color: #E1E5EC;
+    border-block: #9EADBA 3px solid;
+    padding: 8px;
+}
+
+footer img {
+    width: 15%;
+    max-width: 96px;
+}
+
+/* Boton flotante whatsapp */
+.fixed {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.fixed img {
+    width: 64px;
+}
+
+/* Estilos del main */
+
+main {
+    margin: 24px;
+    text-align: center;
+    font-size: 24px;
+}
+
+main img {
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    margin-top: 24px;
+}
+
+.text {
+    margin: 12px;
+    padding: 12px;
+    width: 80%;
+    margin-inline: auto;
+    border: #9EADBA 3px solid;
+}
+
+.education {
+    margin: 20px;
+    font-size: 24px;
+    text-align: left;
+}
+.education ul {
+    margin: 20px;
+}
+.education ul ul {
+    margin-left: 20px;
+}
+
+.video {
+    margin-top: 20px;
+}
+
+form {
+    padding: 16px;
+    border: #9EADBA 3px solid;
+    width: 400px;
+    margin-inline: auto;
+}
+
+.contactme {
+    padding-block: 24px;
+    border: solid 3px #C3CFD9;
+}
+
+.contactme h3 {
+    color: #222;
+}
+
+.contactme a {
+    padding: 4px;
+    color: white;
+    background: #730FC3;
+    border: 3px solid #8d11f3;
+    margin-top: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.contactme a:hover {
+    background-color: #8d11f3;
+    border: 3px solid #730FC3;
+}
+
+.form-container {
+    max-width: 75% !important;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    filter: invert();
+}
+.carousel-item {
+    border-radius: 8px;
+}
+.carousel-image {
+    width: 700px !important;
+    height: 400px !important;
+}
