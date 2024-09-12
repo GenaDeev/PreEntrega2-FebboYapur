@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <title>webDev - Proyectos</title>
+    <style>
+        .carousel-item img {
+            object-fit: cover;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#" class="fixed"><img src="../img/whatsapp.webp" alt="Whatsapp"></a>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand w-75" href="/"><img src="../img/logo.png" alt="Logo de la web"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="active" href="./proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./educacion.html">Educación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sobremi.html">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <h1 class="text-center mb-4">Mis Proyectos</h1>
+
+        <div id="projectsCarousel" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 80%;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/proyecto.webp" class="w-100 carousel-image" alt="Proyecto 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/proyecto.webp" class="w-100 carousel-image" alt="Proyecto 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/proyecto.webp" class="w-100 carousel-image" alt="Proyecto 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/proyecto.webp" class="w-100 carousel-image" alt="Proyecto 4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+        <section class="contactme text-center my-5">
+            <h3>Ponete en contacto conmigo</h3>
+            <a href="/pages/contacto.html" class="btn btn-primary mt-3">Contactame</a>
+        </section>
+    </main>
+
+    <footer class="text-center py-3">
+        <img src="../img/code.png" alt="Logo de programación" class="mb-2">
+        <span>webDev 2024. Todos los derechos reservados</span>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
